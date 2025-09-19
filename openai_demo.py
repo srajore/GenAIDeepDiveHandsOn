@@ -19,7 +19,7 @@ response1 = client1.responses.create(
     input="What is GenAI in simple terms in 2 lines"
 )
 
-response2 = client1.responses.create(
+response2 = client2.responses.create(
     model="gpt-4.1-mini",
     input="What is GenAI in simple terms"
 )
