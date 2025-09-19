@@ -1,6 +1,10 @@
 from openai import OpenAI
 
-client = OpenAI(api_key="")
+from dotenv import load_dotenv
+
+load_dotenv()
+
+client = OpenAI()
 
 response = client.responses.create(
     model="gpt-4.1-mini",
