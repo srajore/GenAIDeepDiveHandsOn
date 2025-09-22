@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = ChatOpenAI()
+llm = ChatOpenAI(max_tokens=100)
 
-response = llm.invoke("What is GenAI in simple terms?")
+response = llm.invoke("What is GenAI ?")
 
 print(response.content)

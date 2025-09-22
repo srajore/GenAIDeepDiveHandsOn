@@ -2,3 +2,8 @@ openai
 python-dotenv
 langchain-openai
 langchain-ollama
+langchain-google-genai
+langchain-anthropic
+langchain-huggingface
+transformers
+torch
