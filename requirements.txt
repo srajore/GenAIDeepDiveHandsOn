@@ -7,3 +7,5 @@ langchain-anthropic
 langchain-huggingface
 transformers
 torch
+streamlit
+langchain-core
