@@ -9,3 +9,6 @@ transformers
 torch
 streamlit
 langchain-core
+langchain-community
+pypdf
+langchain-chroma
